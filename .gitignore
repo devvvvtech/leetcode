@@ -1,0 +1,43 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Compiled Java class files
+*.class
+
+# Maven
+target/
+
+# Gradle
+.gradle/
+build/
+
+# VS Code (if you ever use it too)
+.vscode/
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+
+# JAR/WAR/EAR files
+*.jar
+*.war
+*.ear
+
+# Generated files
+gen/
+out/
+bin/
+
+# Environment files (optional)
+.env
