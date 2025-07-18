@@ -20,12 +20,14 @@ public class ValidParentheses_20 {
 
         for(int i=0; i<s.length(); i++) {
             char ch = s.charAt(i);
-            if(stack.isEmpty() && ch == '}' || ch == ')' || ch == ']' ) {
+            if(stack.isEmpty() && (ch == '}' || ch == ')' || ch == ']') ) {
                 return false;
             }
             else if(ch == '}' || ch == ')' || ch == ']') {
                 if(stack.peek().equals(map.get(ch))) {
                     stack.pop();
+                }else {
+                    return false;
                 }
             }
             else {
