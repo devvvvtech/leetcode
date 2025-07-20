@@ -35,7 +35,6 @@ public class ValidParentheses_20 {
             }
         }
 
-        if(stack.isEmpty()) return true;
-        else return false;
+        return stack.isEmpty();
     }
 }
